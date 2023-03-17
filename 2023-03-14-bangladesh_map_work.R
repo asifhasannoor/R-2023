@@ -1,4 +1,6 @@
-# To draw bangladesh map in R language
+# This file is created on 2023-03-16
+
+# The main aim to draw bangladesh map in R language
 # Load the necessary libraries
 library(readxl)
 library(ggplot2)
@@ -19,4 +21,5 @@ ggplot(sales_data, aes(x = year, y = sales_data$net_sales, color = "red")) +
   scale_x_date(date_breaks = "1 year", date_labels = "%Y") +
   labs(title = "Sales Timeline", x = "Year", y = "Total Sales") +
   theme_classic()
+
 
